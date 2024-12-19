@@ -1,19 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome</title>
 </head>
+
 <body>
     <h1>Welcome</h1>
 
     <fieldset>
         <legend>Signin</legend>
-        <form >
+        <form>
             <label for="Name">Your Name</label>
-            <input type="text" name="Name" id="Name" placeholder="Enter Your Name">
+            <input type="text" name="Name" id="Name" placeholder="Enter Your Name" required>
+            <br />
+            <label for="Email">Your Email</label>
+            <input type="email" name="Email" id="Email" placeholder="Enter Your Name" required>
+            <br />
+            <label for="Password">Your Password</label>
+            <input type="password" name="Password" id="Password" placeholder="Enter Your Password" required>
+            <br />
+            <label for="Gender">Your Gender</label>
+            <br />
+            <label for="Name">Male</label>
+            <input type="radio" name="Name" id="Name" required>
+            <label for="Name">Female</label>
+            <input type="radio" name="Name" id="Name" required>
+            <br />
+            <label for="country">Your State</label>
+            <select>
+                <option>Choose One</option required>
+                <option>Sindhi</option required>
+                <option>Punjab</option>
+                <option>Balochistan</option required>
+                <option>K.P.K</option required>
+                <option>Gilgit Baltistan</option required>
+            </select>
+            <br />
+            <label for="Ideas">Your Ideas</label>
+            <br />
+            <textarea name="Ideas" id="Ideas" placeholder="Give Your Ideas" cols="50px" rows="10px"></textarea>
+            <br />
+            <button><a href="./Table.html"></a> <img src="./Assets/next.png" alt="Next"></button>
         </form>
     </fieldset>
 </body>
+
 </html>
