@@ -1,19 +1,19 @@
 div, h1 {
     text-align: center;
     font-size: 30px;
-    background-color: red;
-    color: white;
+    background-color: blue;
+    color: whit;
 }
 
 div, p {
     text-align: center;
     font-size: 24px;
-    background-color: red;
+    background-color: blue;
     color: white;
 }
 
 h2 {
-    background-color: gray;
+    background-color: blue;
     color: white;
     text-align: center;
     font-size: 35px;
@@ -34,4 +34,8 @@ td {
 
 th {
     color: black;
+}
+
+a,img{
+    width: 150px;
 }
