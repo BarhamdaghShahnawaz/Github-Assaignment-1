@@ -1,12 +1,11 @@
 h1 {
-    text-decoration:underline;
+    text-decoration: underline;
     text-align: center;
     font-size: 32px;
-    background-color: blue;
-    color: white;
+
 }
 
-div, p {
+div {
     text-align: center;
     font-size: 24px;
     background-color: blue;
@@ -37,6 +36,7 @@ th {
     color: white;
 }
 
-a,img{
+a,
+img {
     width: 160px;
 }
